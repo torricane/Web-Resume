@@ -1,0 +1,213 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Public Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #EBECF0;
+}
+.main-section{
+    width: 240mm;
+    height: 340mm;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+.main-section .left-part{
+    width: 40%;
+    height: 100%;
+    background-color: #F4F4F4;
+    padding: 2.8rem;
+}
+
+.left-part .photo-container{
+    margin-bottom: 2.2rem;
+}
+
+.left-part .photo-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1rem solid white;
+}
+
+.title{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    background-color: #444440;
+    color: white;
+    margin: 1rem 0;
+}
+
+.contact-container{
+    margin-bottom: 2.2rem;
+    line-height: 1rem;
+}
+.contact-container .contact-list{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #444440;
+    font-size: 1rem;
+}
+
+
+.languages-container{
+    line-height: 1rem;
+}
+.languages-container .language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.languages-container .language .right-language .outer-layer{
+    background-color: #BBBBBB;
+    height: 0.4rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+}
+
+.languages-container .language .right-language .inner-layer{
+    background-color: #3d3d3d;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.right-part{
+    padding: 2.8rem;
+}
+
+.right-part .banner{
+    font-family: 'Open Sans', sans-serif;
+    color: #4D4D4F;
+    margin-bottom: 2.2rem;
+}
+
+.right-part .banner .firstname{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.right-part .banner .lastname{
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    margin-top: -1rem;
+}
+
+.right-part .banner .position{
+    letter-spacing: 0.2rem;
+}
+.skills-container .skills ul{
+    column-count: 2;
+    column-gap: 40px;
+    
+}
+
+.skills-container .title1{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+}
+.skills-container .title1 span{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+    float: right;
+}
+.skills-container{
+    margin-top: 7rem;
+    font-family: 'Lato', sans-serif;
+    color: #4D4D4F;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+
+.work-container{
+    margin-top: 5rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1rem;
+}
+
+.work-container .work:not(:last-child){
+    margin-bottom: 1.8rem;
+}
+
+.work-container .work .job-date{
+    float: right;
+    justify-content: space-between;
+    color: #4D4D4F;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.work-container .work .company-name{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+}
+
+.work-container .work .work-text{
+    color: #737373;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+
+.education-container{
+    margin-top: 5rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1rem;
+}
+
+.education-container .education:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.education-container .education .education-date{
+    float: right;
+    justify-content: space-between;
+    color: #4D4D4F;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.education-container .education .university-name{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+}
+
+.education-container .education .education-text{
+    color: #737373;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
